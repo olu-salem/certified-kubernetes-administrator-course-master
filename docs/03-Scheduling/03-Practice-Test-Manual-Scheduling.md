@@ -59,6 +59,12 @@ Solutions to Practice Test - Manual Scheduling
     kubectl delete -f nginx.yaml
     kubectl create -f nginx.yaml
     ```
+  To check the status of a pod nginx pod and to know the node name:
+
+  ```
+  kubectl get pods -o wide
+  ```
+
     </details>
 
 1.  <details>
